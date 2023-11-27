@@ -7,13 +7,13 @@ Welcome to VisionSite! Using a code editor, work through the code prompts in the
     
 ## Get started or return to edit and host your site on GitHub! 
 
-1. Go to the [Vision Site Template](https://github.com/VisionSite/VisionSite-template) repository in GitHub or go to your repository if you made one at a Homewood CEC event.
+1. Go to the [Vision Site Template](https://github.com/CodELA-k12/visionsite).
 
-2. Click "Code" then "Download ZIP" to your local computer. 
+2. Click the green "Code" button and then select "Download ZIP" to your local computer. 
 
 3. Find this folder in your downloads. Move this folder to a secure place. You will return to this folder to manage your scripts and other assets like images, pdfs, etcetera. 
 
-4. Download and/or open a text editor like [atom.io](https://atom.io) or [notepad-plus-plus.org](notepad-plus-plus.org). 
+4. Download and/or open with a text editor like  
 
 5. Use the text editor to open the index.html document from your project folder.  
 
@@ -29,33 +29,27 @@ Welcome to VisionSite! Using a code editor, work through the code prompts in the
  
 
 
-Check out our other cool coding tools at [Pitt Fuego](https://github.com/orgs/Pitt-Fuego) on GitHub.
+Check out our other cool coding tools at [CodELA](https://codela-k12.github.io/codela-tools/) on GitHub.
 
 
 
 
 ## Text Editors 
 
-Setting up Atom for Windows and CodePad for Chromebooks 
+Setting up Pulsar for Mac/Windows and CodePad for Chromebooks 
 
-### Atom (Mac)
+### Pulsar (Mac or Windows)
 
 
-1. Download "**[Atom](https://atom.io)**" 
+1. Download "**[Pulsar](https://pulsar-edit.dev)**" 
 1. Add HTML Preview 
-	- from the dropdown menu, select **Atom>Preferences>Install**
-	- In the search bar type "**Atom-HTML-preview**." 
-	- Select the package built by "**HARMSK**." Click "**Install**."
+	* from the dropdown menu, select **Packages>Open Package Manager**
+	* select **+ Install**
+	* in the search bar type "**Atom-HTML-preview**." 
+	* select the package built by "**HARMSK**." Click "**Install**."
 1. Adjust text wrapping 
-	 -	from the dropdown menu, select **View>Toggle Soft Wrap** (this will force lines of code to conform to your viewer tab.)
+	 -	from the dropdown menu, select **View>Toggle Soft Wrap** (this will force lines of code to conform to your view tab.)
 
-### Atom (Windows)
-
-1. Download "**[Atom](https://atom.io)**"
-1. Add HTML Preview - from the dropdown menu, select **File>Settings.** In the tab that loads select **+Install** 
-1. In the search bar type "**Atom-HTML-preview**." 
-1. Select the package built by "**HARMSK**." Click "**Install**."
-1. Adjust text wrapping - from the dropdown menu, select **View>Toggle Soft Wrap** (this will force lines of code to conform to your viewer tab.)
 
 ### Code Pad (Chromebook)
 
