@@ -36,9 +36,9 @@ Check out our other cool coding tools at [CodELA](https://codela-k12.github.io/c
 
 ## Text Editors 
 
-Setting up Pulsar for Mac/Windows and CodePad for Chromebooks 
+Setting up Pulsar for Mac / Windows / Linux and CodePad for Chromebooks 
 
-### Pulsar (Mac or Windows)
+### Pulsar (Mac / Windows / Linux)
 
 
 1. Download "**[Pulsar](https://pulsar-edit.dev)**" 
