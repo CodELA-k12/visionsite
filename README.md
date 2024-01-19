@@ -2,7 +2,7 @@
 
 Welcome to VisionSite! Using a code editor, work through the code prompts in the index.html file to determine your *path moving forward*, complete with inspirational quotes, music, personal goals, and statements of thankfulness. Along the way, you'll learn a little about coding and computer science. After this introduction, you'll be ready to tackle other Codela projects. [Go to Codela](https://codela-k12.github.io/codela-tools/) to find more code-based tools and projects for the English Language Arts classroom.<p>&nbsp;</p>
 
-VisionSite was designed by Pitt students Carter Keith, Domonique Swift, Janet Majekodunmi, and Makye Daniels. 
+VisionSite was designed by Pitt students Carter Keith, Domonique Swift, Janet Majekodunmi, and Makye Daniels. It uses inline styling to keep working with code simple.  
     
 ## Get started! 
 
