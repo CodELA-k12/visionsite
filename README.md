@@ -2,7 +2,7 @@
 
 Welcome to VisionSite! Using a code editor, work through the code prompts in the index.html file to determine your *path moving forward*, complete with inspirational quotes, music, personal goals, and statements of thankfulness. Along the way, you'll learn a little about coding and computer science. After this introduction, you'll be ready to tackle other Codela projects. [Go to Codela](https://codela-k12.github.io/codela-tools/) to find more code-based tools and projects for the English Language Arts classroom.<p>&nbsp;</p>
 
-VisionSite was designed by Pitt students Carter Keith, Domonique Swift, Janet Majekodunmi, and Makye Daniels.   
+VisionSite was designed by Pitt students Carter Keith, Domonique Swift, Janet Majekodunmi, and Makye Daniels. 
     
 ## Get started! 
 
@@ -26,16 +26,13 @@ VisionSite was designed by Pitt students Carter Keith, Domonique Swift, Janet Ma
 
 9. Test the URL in a browser. Magic, no? Actually, it's computer science. <p>&nbsp;</p>  
  
-
-
-
-
+ 
 ## Text Editors 
 
 Setting up Pulsar or VS Code for Mac / Windows / Linux or CodePad for Chromebooks 
 
 ### Pulsar (Open-Source for Mac / Windows / Linux)
-
+[See Video Tutorial](https://youtu.be/dKcJm4V53ig)
 
 1. Download "**[Pulsar](https://pulsar-edit.dev)**" Pulsar comes with "Spell Check" already installed. 
 1. Add HTML Preview 
@@ -47,25 +44,24 @@ Setting up Pulsar or VS Code for Mac / Windows / Linux or CodePad for Chromebook
 	 -	from the dropdown menu, select **View>Toggle Soft Wrap** (this will force lines of code to conform to your view tab.)
 
 ### Visual Studio Code (Mac / Windows /Linux)
+[See Video Tutorial](https://youtu.be/1onqFbSgeQo)
 
 1. Download "**[Visual Studio Code](https://code.visualstudio.com/download)**"
 1. Add HTML Preview 
 	* from the dropdown menu, select **View>Extension.**
 	* In the search bar type "**Live Preview**." Install.
 	* Right click on the index.html tab and select "**show preview**." You should see a live version of your work.
-1. Adjust text wrapping 
-	* from the dropdown menu, select **View>Word Wrap** (this will force lines of code to conform to your viewer tab.)
 1. Install Spell Check 
 	* from the dropdown menu, select **View>Extension.** 
 	* In the search bar type "**Code Spell Check**." Install.
-
+1. Adjust text wrapping on index.html 
+	* from the dropdown menu, select **View>Word Wrap** (this will force lines of code to conform to your viewer tab.)
 
 ### Code Pad (Chromebook)
 
 1. Download "**[Code Pad Text Editor](https://chrome.google.com/webstore/detail/code-pad-text-editor/adaepfiocmagdimjecpifghcgfjlfmkh?hl=en-GB)**" from Chrome Web Store. 
 1. From the dropdown menu, select **Editor>IDE Preferences**
 1. Toggle "**Word wrap limit**" to the middle value (this will force lines of code to conform to your viewer tab.)<p>&nbsp;</p>
-
 
 
 
