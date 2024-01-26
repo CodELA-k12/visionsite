@@ -2,7 +2,6 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
 }
 
 .hero-image {
@@ -81,17 +80,21 @@ body, html {
 }
 
 /* Change unordered list from disc (default) to circle, square, or none. */
-.ul {
+ul {
     list-style-type: disc;
-    font-size: 20pt;
+    font-size: 18pt;
+    font-weight: bold;
     padding: 20px;
+    line-height: 2.2
 }
 
-/* Change orderd list from upper-roman to lower-alpha. */
-.ol {
-    list-style-type: upper-roman;
-    font-size: 20pt;
+/* Change ordered list from upper-roman to lower-alpha. */
+ol {
+    list-style-type:;
+    font-size: 18pt;
+    font-weight: bold;
     padding: 20px;
+    line-height: 2.2;
 }
 
 /* Learn other list conventions: https://www.w3schools.com/cssref/pr_list-style-type.asp */

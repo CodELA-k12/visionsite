@@ -1,22 +1,20 @@
 <!--Welcome to "VisionSite" Read through these code comments for instructions on how to design your own VisionSite.-->
-
-<!--HTML pages start by calling <!DOCTYPE html> and designating a language. In this case, English.-->
+<!--HTML pages start by declaring a document type <!DOCTYPE html> and designating a language. In this case, English.-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!--<head> information contains important information that helps browsers understand how to assemble code into visuals on a screen. Go ahead and fill in the blank between the <title></title> tags. The title will appear in your document's browser tab.-->
+<!--The <head> element contains important information that helps browsers understand how to assemble code into a webpage. You will learn more about this when you complete the I am...introductory template.-->
 <title>My VisionSite</title>
-<!--<meta> tags state unicode and display standards that tell browsers how to display the website across different screens.-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--This <link> (rel)ates to the cascading style sheet or CSS in your project folder. Web designers use CSS to add styling to a website. Using CSS saves time and results in fewer lines of code.-->
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<!--The <body> organizes all of the code and content that actually appears on a screen. Try changing the background color using the inline style.-->
-<body style = "background-color: white;">
+<!--The <body> element organizes all of the code and content that actually appears on a screen. Try changing the background color using the inline style.-->
+<body style="background-color: white;">
 
-<!--Developers refer to this next section as a "Hero Block." The hero image is controlled on the style.css page. To replace this image, simply place a .jpg file in the same file folder (directory) as this project and name it hero.jpg. Since hero images need to stretch across the screen, typically you will want to select an image 1200px in width to allow quick load time yet avoid pixilation.-->
+<!--Developers refer to this next section as the "hero image." To replace this image, simply find and delete the hero.jpg file in the project folder. Then add a new .jpg hero image to the project folder and name it hero.jpg. Select an image at least 1200px in width to avoid pixilation. If an image is larger than 1200px, you will want to resize it speed up load time.-->
 <div class="hero-image">
   <div class="hero-text">
       <h1>I am...</h1>
@@ -25,17 +23,20 @@
 </div>
 
 <!--We'll use this section to write in a quote you live by. Think of a quote or phrase that you follow or inspires you. Write it here! -->
-    <div class="textblock" style="text-align: left;">
-         <h1><em>Quote to Live By</em></h1>
-  <h2>FILL IN QUOTE HERE</h2>
-  </div>
-<br>
-<br>
+
+
+<div class="textblock" style="text-align: left;">
+  <h1><em>Quote to Live By</em></h1>
+   <div class="blockquote" style="text-align: center">
+     <h2>FILL IN QUOTE HERE</h2>
+   </div>
+</div>
+
 
 <!--Privacy is important factor to consider in online composing. How much do you want others to know about you and what images do you want circulating on the internet? Choose your images and other content carefully and be thoughtful about how your content could impact others. If you are concerned about issues of privacy, you can always use stock images, or get creative in other ways.--> 
 
 <!--Replace the image below with another .jpg. Remember, file names/formats are case sensitive. Keep file names simple (we like camelCase) and avoid using spaces and underscores. Control image width using inline styling. Adjust image size to 1200-600px depending on its need to scale across a screen.-->
-<img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" style="width:75%;" class="center-img">
+<img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" style="width:75%">
 <!--Add alt="text" image descriptions for visually impaired individuals using screen readers. Describe your image as clearly and succinctly as possible. Add captions. They provide another important layer of accessibility.-->
 <div class="caption">
 <p><em>Add a caption.</em></p>
@@ -51,17 +52,16 @@
 
 <!--Gratitude List-->
 
-     <div class="textblock" style="text-align: left">
- <h1>Gratitude List</h1>
-  <h2>1. FILL IN ONE THING YOU'RE THANKFUL FOR</h2>
-  <h2>2. FILL IN ANOTHER THING YOU'RE THANKFUL FOR</h2>
-  <h2>3. FILL IN ANOTHER THING YOU'RE THANKFUL FOR</h2>
+<div class="textblock" style="text-align: left">
+  <h1>Gratitude List</h1>
+    <div>
+      <ol>
+        <li>FILL IN ONE THING YOU'RE THANKFUL FOR</li>
+        <li>FILL IN ANOTHER THING YOU'RE THANKFUL FOR</li>
+        <li>FILL IN ANOTHER THING YOU'RE THANKFUL FOR</li>
+     </ol>
   </div>
-
-<br>
-<br>
-<br>
-<br>
+</div>
 
 
 <!--A photo grid uses rows and column classes to create divisions that scale with across devices. The style.css page provides other attributes that will adjust the image depending on the size of screens. Add images to your project folder and make sure the file name/type matches in your code. Resize images to less than 600px in width. This will improve load time accessibility. Don't forget to add alt="text"-->
@@ -91,17 +91,25 @@
 <!--Let's talk a little about the future. What goals do you have? They can be short term, like getting a good grade on a test or updating your wardrobe. Or they can be long term, like getting into your dream college or getting taller.-->
 
 <div class="textblock" style="text-align: left">
-         <h1>Goals</h1>
-  <h2>Short Term Goals</h2>
-  <h2>1. Goal 1</h2>
-  <h2>2. Goal 2</h2>
-  <h2>3. Goal 3</h2>
+  <h1>Goals</h1>
+    <div>
+      <h2>Short Term Goals</h2>
+        <ol>
+          <li>GOAL 1</li>
+          <li>GOAL 2</li>
+          <li>GOAL 3</li>
+        </ol>
+     </div>
+     <div>
+       <h2>Long Term Goals</h2>
+         <ol>
+           <li>GOAL 1</li>
+           <li>GOAL 2</li>
+           <li>GOAL 3</li>
+         </ol>
+    </div> 
+</div>
 
-    <h2>Long Term Goals</h2>
-    <h2>1. Goal 1</h2>
-    <h2>2. Goal 2</h2>
-    <h2>3. Goal 3</h2>
-  </div>
 <br>
 <br>
 <br>
@@ -109,7 +117,7 @@
 
 
 
-<img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" style="width:75%;" class="center-img">
+<img src="horizon.jpg" alt="describe the image HERE for accessibility purposes" style="width:75%">
 <div class="caption">
 <p><em>Add a caption.</em></p>
 </div>
@@ -126,7 +134,7 @@
 <br>
 
 <div style="text-align: center">
-    <img src="codela.jpg" alt="Codela Logo" style="max-width:30%;">
+    <img src="codela.jpg" alt="Codela Logo" style="width:30%">
      <h4>generated by <a href="https://codela-k12.github.io/codela-tools/">Codela</a></h4>
     <p><em>code for the English Language Arts classroom</em></p>
     </div>
@@ -170,15 +178,18 @@
 
     (Change <ul></ul> to <ol></ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
 
-    <div class= "ul">
+    <div>
+      <ul>
             <li>first</li>
             <li>second</li>
             <li>third</li>
+      </ul>
     </div>
 
     -or- (try a nested list)
 
-    <div class="ul">
+    <div 
+      <ul>
         <li>Coffee</li>
         <li>Tea
           <ul>
@@ -187,7 +198,8 @@
           </ul>
          </li>
         <li>Milk</li>
-     </div>
+      </ul> 
+    </div>
 
 
 
@@ -205,11 +217,11 @@
     ***Embed YouTube Video***
 
   <div class="video">
-     <div class="video-container">
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/KVUBbM7pIYw?si=4gCNRENZhkjBgNbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-     </div>
-       <p>Add a caption.</p>
-    </div>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/KVUBbM7pIYw?si=PIkNRIwkV2UqE1Td" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p>Add a caption.</p>
+   </div>
 
 
 
